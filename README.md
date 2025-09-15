@@ -42,7 +42,17 @@ This project demonstrates how to build a **real-world serverless web application
 - **HTML + Tailwind** – frontend design  
 
 ---
+## 🐍 Lambda Function (Python)
 
+The core logic runs on AWS Lambda using Python.
+
+- Retrieves a random fact from DynamoDB  
+- Optionally rephrases it via Amazon Bedrock (Claude AI)  
+- Returns the result as JSON through API Gateway  
+
+Code is in [`lambda/LambdaCode.py`](lambda/LambdaCode.py).
+
+---
 ## 📸 Screenshots
 
 <img width="870" height="684" alt="image" src="https://github.com/user-attachments/assets/267e2ca8-1cdb-467a-8695-c54ad279128c" />
